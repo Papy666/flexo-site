@@ -108,6 +108,56 @@ h1 span {
   gap: 14px;
 }
 
+.feedback-box {
+  margin-top: 70px;
+
+  max-width: 520px;
+
+  padding: 26px;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.025));
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  text-align: center;
+}
+
+.feedback-box h3 {
+  margin: 0 0 12px 0;
+
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.feedback-box p {
+  margin: 0;
+
+  color: rgba(255,255,255,0.62);
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.feedback-box a {
+  display: inline-flex;
+
+  margin-top: 18px;
+
+  color: #55e69d;
+
+  font-size: 15px;
+  font-weight: 850;
+
+  text-decoration: none;
+}
+
+.feedback-box a:hover {
+  opacity: 0.8;
+}
+
 .btn-primary {
   display: inline-flex;
   align-items: center;
